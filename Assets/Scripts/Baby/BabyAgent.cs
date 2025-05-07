@@ -21,6 +21,7 @@ public class BabyAgent : Agent
     // Called at the start of each training episode
     public override void OnEpisodeBegin()
     {
+        Debug.Log("Episode Begin: Resetting agent state.");
         hungerLevel = 0f;
         sleepinessLevel = 0f;
         feedCountToday = 0;
@@ -75,7 +76,7 @@ public class BabyAgent : Agent
         hungerLevel += hungerIncreaseRate;
         sleepinessLevel += sleepinessIncreaseRate;
 
-        bool isDiscomfort = hungerLevel >= 0.6f || sleepinessLevel >= 0.6f; 
+        bool isDiscomfort = hungerLevel >= 0.6f || sleepinessLevel >= 0.6f || isPoopy; 
 
         // Crying behavior
         if (cry == 1)

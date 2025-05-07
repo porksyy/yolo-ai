@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1746289932",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Daren\\Projects\\yolo-ai\\mlagents-env\\Scripts\\mlagents-learn --run-id=test1 --timeout-wait=600 --force",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.7.0+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1746290584"
+    },
+    "total": 651.7759675000125,
+    "count": 1,
+    "self": 0.13085870000941213,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0601438000012422,
+            "count": 1,
+            "self": 0.0601438000012422
+        },
+        "TrainerController.start_learning": {
+            "total": 651.5849650000018,
+            "count": 1,
+            "self": 0.014629900004365481,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 651.5623862000066,
+                    "count": 1,
+                    "self": 651.5623862000066
+                },
+                "TrainerController._save_models": {
+                    "total": 0.007948899990879,
+                    "count": 1,
+                    "self": 0.007948899990879
+                }
+            }
+        }
+    }
+}

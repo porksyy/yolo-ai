@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c037505197f4d46bd8b8e6f1fb1dc1a9
+guid: dd98b886bc28142c2a70ee58f2b978cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8308885116998128010
-    second: pngtree-sleeping-baby-decoration-illustration-png-image_4616767_0
+      213: -7639727445467603216
+    second: back_arrow_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngtree-sleeping-baby-decoration-illustration-png-image_4616767_0
+      name: back_arrow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1200
-        height: 960
+        x: 35
+        y: 35
+        width: 442
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a811436ddf61f4370800000000000000
-      internalID: 8308885116998128010
+      spriteID: 0fed9188d5c3af590800000000000000
+      internalID: -7639727445467603216
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      pngtree-sleeping-baby-decoration-illustration-png-image_4616767_0: 8308885116998128010
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

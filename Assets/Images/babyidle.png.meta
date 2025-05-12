@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 36ab9a850ff4e48ae85ceb76d66a9c38
+guid: 4aadec3cc428a4a5d82f5f7813817d82
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8955360375235244249
-    second: shimon-aoki-POTR4so7Nw4-unsplash_0
+      213: 9091309749945247544
+    second: babyidle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,6 +97,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shimon-aoki-POTR4so7Nw4-unsplash_0
+      name: babyidle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3809
-        height: 2539
+        x: 9
+        y: 99
+        width: 631
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d0718150d4d74c70800000000000000
-      internalID: 8955360375235244249
+      spriteID: 837288cbc02da2e70800000000000000
+      internalID: 9091309749945247544
       vertices: []
       indices: 
       edges: []
@@ -160,8 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      shimon-aoki-POTR4so7Nw4-unsplash_0: 8955360375235244249
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

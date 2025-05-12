@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1222b33e8d4f045b6bc13c35c5f62815
+guid: d41a1db45e009ed4f9c223d6cbce46d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7389157329021579283
-    second: ccss_0
+      213: 8355534932255826566
+    second: diaper_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,43 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ccss_0
+      name: diaper_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 0
-        width: 225
-        height: 225
+        width: 631
+        height: 631
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3103ec9f07f8b8660800000000000000
-      internalID: 7389157329021579283
+      spriteID: 682e97950c2d4f370800000000000000
+      internalID: 8355534932255826566
       vertices: []
       indices: 
       edges: []
@@ -174,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ccss_0: 7389157329021579283
+      diaper_0: 8355534932255826566
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

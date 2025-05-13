@@ -38,6 +38,10 @@ public class BabyAgent : Agent, IDataPersistence
     private float realTimeAccumulator = 0f;
     public float secondsPerSimulatedMinute = 1f;
 
+    private bool hasCriedThisNeed = false;
+    private bool autoWakeEnabled = true;
+    private System.Random rng = new System.Random();
+
     public void LoadData(GameData data)
     {
         // Calculate days passed since the player started
@@ -112,9 +116,10 @@ public class BabyAgent : Agent, IDataPersistence
         isSleeping = false;
         hasPooped = false;
         poopTimer = -1;
+        hasCriedThisNeed = false;
         Debug.Log($"Age Group = {(int)ageGroup}");
         animator.SetInteger("ageGroup", (int)ageGroup);
-        
+
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -130,6 +135,17 @@ public class BabyAgent : Agent, IDataPersistence
         sensor.AddObservation(isSleeping ? 1f : 0f);
         sensor.AddObservation(tick / 1440f); // normalized time of day
     }
+
+    //private void Update()
+    //{
+    //    realTimeAccumulator += Time.deltaTime;
+    //    while (realTimeAccumulator >= secondsPerSimulatedMinute)
+    //    {
+    //        RequestDecision(); // Trigger a new action decision
+    //        realTimeAccumulator -= secondsPerSimulatedMinute;
+    //    }
+    //}
+
 
     public override void OnActionReceived(ActionBuffers actions)
     {
@@ -159,68 +175,68 @@ public class BabyAgent : Agent, IDataPersistence
 
     public bool IsHungry()
     {
-        switch (ageGroup)
+        return ageGroup switch
         {
-            case AgeGroup.Month0To3: return timeSinceLastFeed >= 90;
-            case AgeGroup.Month4To6: return timeSinceLastFeed >= 120;
-            case AgeGroup.Month6To12: return timeSinceLastFeed >= 180;
-            default: return false;
-        }
+            AgeGroup.Month0To3 => timeSinceLastFeed >= 90,
+            AgeGroup.Month4To6 => timeSinceLastFeed >= 120,
+            AgeGroup.Month6To12 => timeSinceLastFeed >= 180,
+            _ => false,
+        };
     }
 
     public bool IsSleepy()
     {
-        switch (ageGroup)
+        return ageGroup switch
         {
-            case AgeGroup.Month0To3: return awakeTime >= 60;
-            case AgeGroup.Month4To6: return awakeTime >= 90;
-            case AgeGroup.Month6To12: return awakeTime >= 120;
-            default: return false;
-        }
+            AgeGroup.Month0To3 => awakeTime >= 60,
+            AgeGroup.Month4To6 => awakeTime >= 90,
+            AgeGroup.Month6To12 => awakeTime >= 120,
+            _ => false,
+        };
     }
 
     private float GetPoopDelay()
     {
-        switch (ageGroup)
+        return ageGroup switch
         {
-            case AgeGroup.Month0To3: return 30f;
-            case AgeGroup.Month4To6: return 45f;
-            case AgeGroup.Month6To12: return 60f;
-            default: return 60f;
-        }
+            AgeGroup.Month0To3 => 30f,
+            AgeGroup.Month4To6 => 45f,
+            AgeGroup.Month6To12 => 60f,
+            _ => 60f,
+        };
     }
 
     private float GetExpectedFeedCount()
     {
-        switch (ageGroup)
+        return ageGroup switch
         {
-            case AgeGroup.Month0To3: return 11f;
-            case AgeGroup.Month4To6: return 9f;
-            case AgeGroup.Month6To12: return 5f;
-            default: return 0f;
-        }
+            AgeGroup.Month0To3 => 11f,
+            AgeGroup.Month4To6 => 9f,
+            AgeGroup.Month6To12 => 5f,
+            _ => 0f,
+        };
     }
 
     private Vector2 GetExpectedSleepHours()
     {
-        switch (ageGroup)
+        return ageGroup switch
         {
-            case AgeGroup.Month0To3: return new Vector2(14f, 17f);
-            case AgeGroup.Month4To6: return new Vector2(12f, 16f);
-            case AgeGroup.Month6To12: return new Vector2(12f, 12f);
-            default: return Vector2.zero;
-        }
+            AgeGroup.Month0To3 => new Vector2(14f, 17f),
+            AgeGroup.Month4To6 => new Vector2(12f, 16f),
+            AgeGroup.Month6To12 => new Vector2(12f, 12f),
+            _ => Vector2.zero,
+        };
     }
 
     private int GetSleepDurationTarget()
     {
-        switch (ageGroup)
+        return ageGroup switch
         {
-            case AgeGroup.Month0To3: return 90;   // 1.5 hr nap
-            case AgeGroup.Month4To6: return 120;  // 2 hr nap
-            case AgeGroup.Month6To12: return 120;
-            default: return 90;
-        }
+            AgeGroup.Month0To3 => 90,
+            AgeGroup.Month4To6 => 120,
+            AgeGroup.Month6To12 => 120,
+            _ => 90,
+        };
     }
 
     public void Feed()
@@ -230,19 +246,25 @@ public class BabyAgent : Agent, IDataPersistence
         dailyFeedCount++;
         timeSinceLastFeed = 0;
         poopCounter++;
+        hasCriedThisNeed = false;
+
         if (poopCounter >= 3)
         {
             poopTimer = 0;
             poopCounter = 0;
         }
+        AddReward(+0.1f);
     }
 
     public void PutToSleep()
     {
-        if (!isSleeping) {
+        if (!isSleeping) 
+        {
             isSleeping = true;
             awakeTime = 0;
             timeSinceLastSleep = 0;
+            hasCriedThisNeed = false;
+            AddReward(+0.1f);
         }
         
     }
@@ -251,6 +273,8 @@ public class BabyAgent : Agent, IDataPersistence
     {
         hasPooped = false;
         timeSinceLastPoop = 0;
+        hasCriedThisNeed = false;
+        AddReward(+0.1f);
     }
 
     private void SimulateMinute(int action)
@@ -273,11 +297,12 @@ public class BabyAgent : Agent, IDataPersistence
 
             poopTimer += 1;
             Debug.Log($"Poop Timer Progress: {poopTimer}/{GetPoopDelay()}");
-            if (poopTimer >= GetPoopDelay())
+            if (poopTimer >= GetPoopDelay() + rng.Next(-5, 5))
             {
                 hasPooped = true;
                 poopTimer = -1;
                 Debug.Log("Baby has pooped!");
+                hasCriedThisNeed = false;
             }
         }
 
@@ -291,7 +316,7 @@ public class BabyAgent : Agent, IDataPersistence
             //AddReward(-0.001f); // tiny penalty to encourage decision-making
             if (hungry || sleepy || hasPooped)
             {
-                AddReward(-1f);
+                AddReward(-0.1f);
 
             }
             else
@@ -304,13 +329,21 @@ public class BabyAgent : Agent, IDataPersistence
         }
         else if (action == 1)
         {
+            if (isSleeping)
+            {
+                Debug.Log("Baby is waking up due to need.");
+                isSleeping = false;
+                sleepTime = 0;
+            }
+
             animator.SetBool("isCrying", true);
             totalCries++;
             Debug.Log($"Age: {ageGroup}, IsHungry: {hungry}, IsSleepy: {sleepy}, Pooped : {hasPooped}, Cry: 1, Reward: {GetCumulativeReward()}");
-            if (hungry || sleepy || hasPooped)
+            if (hungry || sleepy || hasPooped & !hasCriedThisNeed)
             {
                 AddReward(+1f); // appropriate cry
                 correctCries++;
+                hasCriedThisNeed = true;
 
                 // ENVIRONMENT RESPONSE TO CRY
                 if (!userControlResponded)
@@ -328,9 +361,11 @@ public class BabyAgent : Agent, IDataPersistence
         }
 
         // Wake baby up after typical sleep time
-        if (isSleeping && GetSleepDurationTarget() > 0 && sleepTime % GetSleepDurationTarget() == 0)
+        //if (isSleeping && GetSleepDurationTarget() > 0 && sleepTime % GetSleepDurationTarget() == 0)
+        if (isSleeping && autoWakeEnabled && sleepTime >= GetSleepDurationTarget())
         {
             isSleeping = false;
+            sleepTime = 0;
         }
 
         // End of day
@@ -344,7 +379,7 @@ public class BabyAgent : Agent, IDataPersistence
             EndEpisode();
 
         }
-        Debug.Log($"Tick: {tick}, Age: {ageGroup}, IsHungry: {hungry}, IsSleepy: {sleepy}, Pooped : {hasPooped}, Cry: {action}, Reward: {GetCumulativeReward()}");
+        Debug.Log($"Tick: {tick}, Age: {ageGroup}, IsHungry: {hungry}, IsSleepy: {sleepy}, IsSleeping{isSleeping}, Pooped : {hasPooped}, Cry: {action}, Reward: {GetCumulativeReward()}");
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)

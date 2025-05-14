@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Images/playbtn.png.meta
-guid: 6f0af607ff75344b9870978e4d603a46
+guid: 904226e640c1274459487a1e06ffaf97
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2852458912439381183
-    second: playbtn_0
-========
-guid: 8a66a1743dfccd54892d4f4ab7355eb1
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7799427308936742124
-    second: dede_0
->>>>>>>> main-game:Assets/Images/controller/dede.png.meta
+      213: -1768854372134492381
+    second: bg1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,23 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Images/playbtn.png.meta
-      name: playbtn_0
+      name: bg1_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 57
-        width: 158
-        height: 157
-========
-      name: dede_0
-      rect:
-        serializedVersion: 2
-        x: 9
+        x: 0
         y: 0
-        width: 631
-        height: 631
->>>>>>>> main-game:Assets/Images/controller/dede.png.meta
+        width: 810
+        height: 1440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,13 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Images/playbtn.png.meta
-      spriteID: fbca8549448f59720800000000000000
-      internalID: 2852458912439381183
-========
-      spriteID: 41b38578f2ed2c390800000000000000
-      internalID: -7799427308936742124
->>>>>>>> main-game:Assets/Images/controller/dede.png.meta
+      spriteID: 327e6810254c377e0800000000000000
+      internalID: -1768854372134492381
       vertices: []
       indices: 
       edges: []
@@ -172,11 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<<< HEAD:Assets/Images/playbtn.png.meta
-      playbtn_0: 2852458912439381183
-========
-      dede_0: -7799427308936742124
->>>>>>>> main-game:Assets/Images/controller/dede.png.meta
+      bg1_0: -1768854372134492381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

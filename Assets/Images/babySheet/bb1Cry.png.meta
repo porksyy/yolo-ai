@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 80849b96855975d43a9a15142dd31cb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1698342237527904686
+    second: bb1Cry_0
+  - first:
+      213: 1812053899358530027
+    second: bb1Cry_1
+  - first:
+      213: 2166218529944401826
+    second: bb1Cry_2
+  - first:
+      213: -5607598592992241717
+    second: bb1Cry_3
+  - first:
+      213: -1417766163569130858
+    second: bb1Cry_4
+  - first:
+      213: 2737710753349615186
+    second: bb1Cry_5
+  - first:
+      213: -6080998214243101720
+    second: bb1Cry_6
+  - first:
+      213: -7180372983977463796
+    second: bb1Cry_7
+  - first:
+      213: -7148239801923317532
+    second: bb1Cry_8
+  - first:
+      213: -1056501951996914907
+    second: bb1Cry_9
+  - first:
+      213: -1711454019003236308
+    second: bb1Cry_10
+  - first:
+      213: 4635681879154785440
+    second: bb1Cry_11
+  - first:
+      213: -5227232781444661267
+    second: bb1Cry_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bb1Cry_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 699
+        width: 513
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be96029bb65b52910800000000000000
+      internalID: 1812053899358530027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bb1Cry_2
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 699
+        width: 513
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7743f9644ff0e10800000000000000
+      internalID: 2166218529944401826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bb1Cry_3
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 699
+        width: 513
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc797bd3acecd22b0800000000000000
+      internalID: -5607598592992241717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bb1Cry_4
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 678
+        width: 503
+        height: 415
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44219765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692c4e59f25135ce0800000000000000
+      internalID: -1417766163569130858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bb1Cry_5
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 699
+        width: 513
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ebb27dc6d4ef520800000000000000
+      internalID: 2737710753349615186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bb1Cry_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 513
+        height: 389
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3972236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fc91dae33c4a840ba16cdf7a517355
+      internalID: -698730935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bb1Cry_11
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 48
+        width: 513
+        height: 427
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39f838e266b83f4fa158c5d4ca72713
+      internalID: 1423597716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bb1Cry_12
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 59
+        width: 502
+        height: 408
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3972236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e92eb77e3a383140b84775fa2526535
+      internalID: -1680493967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1a246353beb8ff94fa1c600df7e6e45b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bb1Cry_0: 1698342237527904686
+      bb1Cry_1: 1812053899358530027
+      bb1Cry_10: -698730935
+      bb1Cry_11: 1423597716
+      bb1Cry_12: -1680493967
+      bb1Cry_2: 2166218529944401826
+      bb1Cry_3: -5607598592992241717
+      bb1Cry_4: -1417766163569130858
+      bb1Cry_5: 2737710753349615186
+      bb1Cry_6: -6080998214243101720
+      bb1Cry_7: -7180372983977463796
+      bb1Cry_8: -889610905
+      bb1Cry_9: 734974198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

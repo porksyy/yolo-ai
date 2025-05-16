@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 389634251e6864b37b1190e6cefc6635
+guid: 40af5d375b7384349b453054ed99cea5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4471709120256367362
-    second: bbay_0
+      213: 8678448789981272047
+    second: chicken_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bbay_0
+      name: chicken_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 47
-        width: 349
-        height: 597
+        x: 123
+        y: 124
+        width: 379
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20b51c3b0c3be0e30800000000000000
-      internalID: 4471709120256367362
+      spriteID: fe79040b13b007870800000000000000
+      internalID: 8678448789981272047
       vertices: []
       indices: 
       edges: []

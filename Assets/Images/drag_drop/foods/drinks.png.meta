@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4648d0a9a0eff496cb1c87e76e7f9442
+guid: f78e9f2ab67da441bb545e595b4fe20b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7043877712630140761
-    second: temp_bg 1_0
+      213: -6993649487202796515
+    second: drinks_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -122,40 +122,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: temp_bg 1_0
+      name: drinks_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 612
-        height: 423
+        x: 122
+        y: 90
+        width: 156
+        height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a0b3695a8e1f3e90800000000000000
-      internalID: -7043877712630140761
+      spriteID: d1c3fa768d091fe90800000000000000
+      internalID: -6993649487202796515
       vertices: []
       indices: 
       edges: []
@@ -164,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e8c2155f6a9c548a69eddbfcca1298a8
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      temp_bg 1_0: -7043877712630140761
+      drinks_0: -6993649487202796515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -42,28 +42,24 @@ public class Timer : MonoBehaviour
     void ShowGameOver()
     {
         if (gameOverScreen != null)
-        {
             gameOverScreen.SetActive(true);
-        }
 
+        // Stop balloon spawning
         BalloonFall balloonFall = FindAnyObjectByType<BalloonFall>();
         if (balloonFall != null)
-        {
             balloonFall.StopSpawning();
-        }
 
+        // Stop existing balloons
         GameObject[] balloons = GameObject.FindGameObjectsWithTag("Balloon");
         foreach (GameObject b in balloons)
         {
             Rigidbody2D rb = b.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
-                rb.linearVelocity = Vector2.zero;
-                rb.angularVelocity = 0f;                   // stop any rotation
-                rb.bodyType = RigidbodyType2D.Kinematic;   // freeze in place
+                rb.linearVelocity = Vector2.zero; // Unity 6
+                rb.angularVelocity = 0f;
+                rb.bodyType = RigidbodyType2D.Kinematic; // freeze in place
             }
-
-            Debug.Log("Game Over!");
         }
     }
 }

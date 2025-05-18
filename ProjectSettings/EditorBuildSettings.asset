@@ -6,14 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: d7bfb76c5345f41129b282cdd349d34d
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
     guid: eb80c836edfcc4ad3a4c4b6c37a26f87
   - enabled: 1
-    path: Assets/Scenes/LoadingScreen.unity
-    guid: d7bfb76c5345f41129b282cdd349d34d
+    path: Assets/Scenes/Minigames.unity
+    guid: 4e511632f9c854439b855e004f69cb80
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 510116c4d165747889b168565a15876a, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

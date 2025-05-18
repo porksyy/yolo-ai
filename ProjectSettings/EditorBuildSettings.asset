@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigames.unity
     guid: 4e511632f9c854439b855e004f69cb80
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Balloon.unity
+    guid: 8c2e966ff194a4b24ade6cd42220f763
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 510116c4d165747889b168565a15876a, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

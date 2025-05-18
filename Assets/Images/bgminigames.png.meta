@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
 guid: b63328faea197403b8a423abd122fabe
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 2659089295030500648
-    second: bgminigames_0
-========
-guid: 2ca87e477e8ff46e5ac8b615b413da0c
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 3637190532590308996
-    second: ballonbg_0
->>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -75,9 +63,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -97,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,33 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -146,43 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
-      name: bgminigames_0
-========
-      name: ballonbg_0
->>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
-        width: 1280
-        height: 1280
-========
-        width: 640
-        height: 960
->>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
-      spriteID: 82d365810abf6e420800000000000000
-      internalID: 2659089295030500648
-========
-      spriteID: 48e857bc485e97230800000000000000
-      internalID: 3637190532590308996
->>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -196,12 +122,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
-    nameFileIdTable:
-      bgminigames_0: 2659089295030500648
-========
     nameFileIdTable: {}
->>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 035338fd976ba4dfcba9d36b07ab7b8d
+guid: b445ef0e2d9664821b938bb9de519446
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2812105719874072972
-    second: rektangol_0
+      213: -3547801648469258843
+    second: right_arrow_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rektangol_0
+      name: right_arrow_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 14
-        width: 450
-        height: 450
+        x: 50
+        y: 59
+        width: 427
+        height: 361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8130f7c04b960720800000000000000
-      internalID: 2812105719874072972
+      spriteID: 5adc171a23da3cec0800000000000000
+      internalID: -3547801648469258843
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rektangol_0: 2812105719874072972
+      right_arrow_0: -3547801648469258843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

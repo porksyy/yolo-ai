@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Images/border.png.meta
 guid: 4fd11e9785d9c4e1284bbd36cf5e0fdf
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -2132956935838155565
     second: border_0
+========
+guid: d53f1c555ee0b4b3fa93a67b6467f406
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4356950025107862489
+    second: left_arrow_0
+>>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/left_arrow.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,6 +148,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Images/border.png.meta
       name: border_0
       rect:
         serializedVersion: 2
@@ -146,6 +156,15 @@ TextureImporter:
         y: 10
         width: 180
         height: 180
+========
+      name: left_arrow_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 89
+        width: 427
+        height: 362
+>>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/left_arrow.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +173,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/Images/border.png.meta
       spriteID: 3dc392eb7f63662e0800000000000000
       internalID: -2132956935838155565
+========
+      spriteID: 9d3fea6b6fef67c30800000000000000
+      internalID: 4356950025107862489
+>>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/left_arrow.png.meta
       vertices: []
       indices: 
       edges: []
@@ -173,8 +197,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<<< HEAD:Assets/Images/border.png.meta
     nameFileIdTable:
       border_0: -2132956935838155565
+========
+    nameFileIdTable: {}
+>>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/left_arrow.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

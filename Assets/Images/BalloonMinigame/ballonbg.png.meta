@@ -1,14 +1,19 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: bf7e1544f10ea58458cce4995d847f95
-=======
-guid: 36b000817335745cdaa6786b550138e9
->>>>>>> origin/minigame-balloon
+<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
+guid: 2b883005cc358e44a839950e623fa113
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2852458912439381183
-    second: playbtn_0
+      213: 2659089295030500648
+    second: bgminigames_0
+========
+guid: 2ca87e477e8ff46e5ac8b615b413da0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3637190532590308996
+    second: ballonbg_0
+>>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,8 +118,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -141,18 +144,26 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> origin/minigame-balloon
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: playbtn_0
+<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
+      name: bgminigames_0
+========
+      name: ballonbg_0
+>>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
       rect:
         serializedVersion: 2
-        x: 31
-        y: 57
-        width: 158
-        height: 157
+        x: 0
+        y: 0
+<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
+        width: 1280
+        height: 1280
+========
+        width: 640
+        height: 960
+>>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +172,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbca8549448f59720800000000000000
-      internalID: 2852458912439381183
+<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
+      spriteID: 82d365810abf6e420800000000000000
+      internalID: 2659089295030500648
+========
+      spriteID: 48e857bc485e97230800000000000000
+      internalID: 3637190532590308996
+>>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
       vertices: []
       indices: 
       edges: []
@@ -180,12 +196,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<<< HEAD:Assets/Images/bgminigames.png.meta
     nameFileIdTable:
-<<<<<<< HEAD
-      playbtn_0: 2852458912439381183
-=======
-      rektangol_0: 2812105719874072972
->>>>>>> origin/minigame-balloon
+      bgminigames_0: 2659089295030500648
+========
+    nameFileIdTable: {}
+>>>>>>>> origin/minigame-balloon:Assets/Images/BalloonMinigame/ballonbg.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

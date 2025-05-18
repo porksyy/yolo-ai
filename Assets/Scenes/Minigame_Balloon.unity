@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 253972855}
   - component: {fileID: 253972854}
   - component: {fileID: 253972853}
+  - component: {fileID: 253972856}
   m_Layer: 5
   m_Name: Btn_Right
   m_TagString: Untagged
@@ -363,6 +364,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253972851}
   m_CullTransparentMesh: 1
+--- !u!114 &253972856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253972851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 560874039}
+          m_TargetAssemblyTypeName: BabyMovement, Assembly-CSharp
+          m_MethodName: MoveRight
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 560874039}
+          m_TargetAssemblyTypeName: BabyMovement, Assembly-CSharp
+          m_MethodName: MoveRight
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &364827136
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,6 +998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2e3707ffa2a43f3acc37a9850c06d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 7
 --- !u!50 &560874040
 Rigidbody2D:
   serializedVersion: 5
@@ -1279,6 +1326,7 @@ GameObject:
   - component: {fileID: 817564774}
   - component: {fileID: 817564773}
   - component: {fileID: 817564772}
+  - component: {fileID: 817564775}
   m_Layer: 5
   m_Name: Btn_Left
   m_TagString: Untagged
@@ -1388,6 +1436,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817564770}
   m_CullTransparentMesh: 1
+--- !u!114 &817564775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817564770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 560874039}
+          m_TargetAssemblyTypeName: BabyMovement, Assembly-CSharp
+          m_MethodName: MoveLeft
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 560874039}
+          m_TargetAssemblyTypeName: BabyMovement, Assembly-CSharp
+          m_MethodName: StopMoving
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &847454155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,10 +1651,10 @@ RectTransform:
   - {fileID: 393338500}
   m_Father: {fileID: 574885834}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 400}
+  m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &898473316
 MonoBehaviour:
@@ -1575,6 +1668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07b7603666fe74d14a88df01ea70299c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playButton: {fileID: 0}
 --- !u!114 &898473317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1588,7 +1682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.3254902}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1839,6 +1933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07b7603666fe74d14a88df01ea70299c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playButton: {fileID: 898473314}
 --- !u!1 &1329011147
 GameObject:
   m_ObjectHideFlags: 0

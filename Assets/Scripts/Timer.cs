@@ -61,5 +61,10 @@ public class Timer : MonoBehaviour
                 rb.bodyType = RigidbodyType2D.Kinematic; // freeze in place
             }
         }
+
+        GameObject playButton = GameObject.Find("Btn_Play");
+        if (playButton != null)
+            playButton.SetActive(false);
+
     }
 }

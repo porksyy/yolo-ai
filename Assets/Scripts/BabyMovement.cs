@@ -2,26 +2,33 @@ using UnityEngine;
 
 public class BabyMovement : MonoBehaviour
 {
-
-    float horizontalInput;
-    float movementSpeed = 7f;
+    float movementInput = 0f;
+    public float movementSpeed = 5f;
 
     Rigidbody2D rb;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
+        rb.linearVelocity = new Vector2(movementInput * movementSpeed, rb.linearVelocityY);
     }
 
-    private void FixedUpdate()
+    public void MoveLeft()
     {
-        rb.linearVelocity = new Vector2(horizontalInput * movementSpeed, rb.linearVelocityY);
+        movementInput = -1f;
+    }
+
+    public void MoveRight()
+    {
+        movementInput = 1f;
+    }
+
+    public void StopMoving()
+    {
+        movementInput = 0f;
     }
 }

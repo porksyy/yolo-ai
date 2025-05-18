@@ -3,10 +3,10 @@ using UnityEngine.UI;
 
 public class GameStartController : MonoBehaviour
 {
-    public GameObject playButton;      // Assign your Play Button GameObject here
-    public BalloonFall balloonFall;    // Assign BalloonFall script here
-    public Timer gameTimer;            // Assign Timer script here
-    public GameObject gameUI;          // Any gameplay UI to enable on start
+    public GameObject playButton;      
+    public BalloonFall balloonFall;    
+    public Timer gameTimer;            
+    public GameObject gameUI;         
 
     void Start()
     {

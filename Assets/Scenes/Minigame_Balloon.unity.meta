@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Minigame_Balloon.unity.meta
 guid: 8c2e966ff194a4b24ade6cd42220f763
+========
+guid: cdd0c4b9889044d73bc958a922ada300
+>>>>>>>> origin/minigame-toymatch:Assets/Plugins/PrimeTween/internal/com.kyrylokuzyk.primetween.tgz.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

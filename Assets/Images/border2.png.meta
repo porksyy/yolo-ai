@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Images/border2.png.meta
 guid: 6f40ab9cf6cb24b9bac5bc99064f1d52
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3756446688473567165
     second: border2_0
+========
+guid: 4bb8eb8604c21664cb641d79c432d67d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4900830808799599116
+    second: card_0_0
+>>>>>>>> origin/minigame-toymatch:Assets/Images/Toy Match/card_0.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -98,6 +107,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
+<<<<<<<< HEAD:Assets/Images/border2.png.meta
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -111,6 +121,8 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
+========
+>>>>>>>> origin/minigame-toymatch:Assets/Images/Toy Match/card_0.png.meta
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,6 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Images/border2.png.meta
       name: border2_0
       rect:
         serializedVersion: 2
@@ -146,6 +159,15 @@ TextureImporter:
         y: 55
         width: 418
         height: 293
+========
+      name: card_0_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 88
+        width: 992
+        height: 1324
+>>>>>>>> origin/minigame-toymatch:Assets/Images/Toy Match/card_0.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +176,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/Images/border2.png.meta
       spriteID: 34037dba3ab6edbc0800000000000000
       internalID: -3756446688473567165
+========
+      spriteID: 4f5a5395850ccfbb0800000000000000
+      internalID: -4900830808799599116
+>>>>>>>> origin/minigame-toymatch:Assets/Images/Toy Match/card_0.png.meta
       vertices: []
       indices: 
       edges: []
@@ -174,7 +201,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<<< HEAD:Assets/Images/border2.png.meta
       border2_0: -3756446688473567165
+========
+      card_0_0: -4900830808799599116
+>>>>>>>> origin/minigame-toymatch:Assets/Images/Toy Match/card_0.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

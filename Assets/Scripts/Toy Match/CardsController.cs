@@ -157,6 +157,26 @@ public class CardsController : MonoBehaviour
             spriteList[randomIndex] = temp;
         }
     }
+
+    public void NewGame()
+    {
+        foreach (Transform child in gridTransform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        elapsedTime = 0;
+        isGameActive = true;
+        matchCounts = 0;
+        firstSelected = null;
+        secondSelected = null;
+
+        if (completed != null) completed.SetActive(false);
+
+        if (currentScore != null) currentScore.GetComponent<TextMeshProUGUI>().text = "-";
+        PrepareSprites();
+        CreateCards();
+    }
 }
 
 

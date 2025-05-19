@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 6f40ab9cf6cb24b9bac5bc99064f1d52
+guid: eca8b73ffc4fde94394b3641f0cd8f17
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3756446688473567165
-    second: border2_0
+      213: -1454802912486967508
+    second: balloon_thumbnail_0
+  - first:
+      213: 6123795281317334271
+    second: balloon_thumbnail_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +116,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: border2_0
+      name: balloon_thumbnail_1
       rect:
         serializedVersion: 2
-        x: 70
-        y: 55
-        width: 418
-        height: 293
+        x: 120
+        y: 47
+        width: 230
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34037dba3ab6edbc0800000000000000
-      internalID: -3756446688473567165
+      spriteID: ffc0224fc571cf450800000000000000
+      internalID: 6123795281317334271
       vertices: []
       indices: 
       edges: []
@@ -138,7 +141,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3e6cd5b008bae764686945b233d52d2e
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +150,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      balloon_thumbnail_1: 6123795281317334271
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Images/Toy Match/card_1.png.meta
-guid: a0551093142063345961be3dcf83919a
+guid: 8776947266bc0494092bd33ca568f31b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6352706402464596295
-    second: card_1_0
-========
-guid: fcced15ecd42a410594b631177c47e45
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7499154508442906066
-    second: box_0
->>>>>>>> origin/minigame-dragdrop:Assets/Images/box.png.meta
+      213: -6410442598547967069
+    second: orange_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,23 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Images/Toy Match/card_1.png.meta
-      name: card_1_0
+      name: orange_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 24
-        width: 1554
-        height: 1728
-========
-      name: box_0
-      rect:
-        serializedVersion: 2
-        x: 121
-        y: 39
-        width: 578
-        height: 577
->>>>>>>> origin/minigame-dragdrop:Assets/Images/box.png.meta
+        x: 32
+        y: 25
+        width: 161
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,13 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Images/Toy Match/card_1.png.meta
-      spriteID: 7418041a0d8592850800000000000000
-      internalID: 6352706402464596295
-========
-      spriteID: 2dd228f0b49521860800000000000000
-      internalID: 7499154508442906066
->>>>>>>> origin/minigame-dragdrop:Assets/Images/box.png.meta
+      spriteID: 3a3348cab688907a0800000000000000
+      internalID: -6410442598547967069
       vertices: []
       indices: 
       edges: []
@@ -184,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      card_1_0: 6352706402464596295
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
@@ -65,5 +66,9 @@ public class HealthManager : MonoBehaviour
             gameOverPanel.SetActive(true);
             scoreText.text = "Final Score: " + health;
         }
+    }
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

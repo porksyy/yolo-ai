@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniGame_ToyMatch.unity
     guid: cfa06efc90b5db44cb717a6d496b7a0f
+  - enabled: 1
+    path: Assets/Scenes/TEST.unity
+    guid: 5d4b5c79663c141b79e771b933397e67
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 510116c4d165747889b168565a15876a, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

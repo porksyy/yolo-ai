@@ -46,7 +46,7 @@ The baby agent successfully learned **feeding, sleeping, and communication behav
 
 - AI Training: Unity ML-Agents Toolkit (PPO algorithm)
 
-- Programming: C#, Python
+- Programming: C#
 
 - Concepts: Reinforcement Learning, Needs-Based Motivation
 
